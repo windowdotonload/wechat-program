@@ -1,14 +1,57 @@
 {
   "pages":[
-    "pages/logs1/logs1",
-    "pages/index/index",
-    "pages/logs/logs"  
+    "pages/index/index", 
+    "pages/category/index",   
+    "pages/goods_list/index", 
+    "pages/goods_detail/index", 
+    "pages/cart/index", 
+    "pages/collect/index", 
+    "pages/order/index", 
+    "pages/search/index", 
+    "pages/user/index", 
+    "pages/feedback/index", 
+    "pages/login/index",
+    "pages/pay/index",
+    "pages/auth/index" 
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#e67e22",
+    "navigationBarTitleText": "优选",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d3a",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "iconpic/shouye.png",
+        "selectedIconPath": "iconpic/shouyesel.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "iconpic/cat.png",
+        "selectedIconPath": "iconpic/catsel.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "首页",
+        "iconPath": "iconpic/car.png",
+        "selectedIconPath": "iconpic/carsel.png"
+      },
+      { 
+        "pagePath": "pages/user/index",
+        "text": "首页",
+        "iconPath": "iconpic/wo.png",
+        "selectedIconPath": "iconpic/woselpng.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

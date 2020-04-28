@@ -1,4 +1,4 @@
-// pages/logs1/logs1.js
+// pages/search/index.js
 Page({
 
   /**
