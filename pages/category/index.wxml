@@ -1,2 +1,19 @@
 <!--pages/category/index.wxml-->
-<text>pages/category/index.wxml</text>
+<view class="cates">
+    <search></search>
+    <view class="cates_continer">
+        <!-- 左侧商品分类 -->
+        <scroll-view class="leftcate" scroll-y="{{true}}">
+            <view class="menudata"
+            wx:for="{{leftlist}}"
+            wx:key="*this">
+                {{item}}
+            </view>
+        </scroll-view>
+        <!-- 右侧商品分类 -->
+        <scroll-view class="rightcate" scroll-y="{{true}}">
+
+        </scroll-view>
+    </view>
+    
+</view>

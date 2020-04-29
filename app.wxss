@@ -6,3 +6,7 @@ page,view,text,swiper,swiper-item,navigator,image {
     margin:0;
     box-sizing: border-box ;
 }
+
+image{
+    width:100%;
+}

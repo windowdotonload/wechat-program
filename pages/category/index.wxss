@@ -1,1 +1,24 @@
 /* pages/category/index.wxss */
+page {
+  height: 100%;
+}
+.cates {
+  height: 100%;
+}
+.cates .cates_continer {
+  height: calc(100vh-90rpx);
+  display: flex;
+}
+.cates .cates_continer .leftcate {
+  flex: 2;
+}
+.cates .cates_continer .leftcate .menudata {
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cates .cates_continer .rightcate {
+  flex: 5;
+}
